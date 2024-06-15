@@ -4,6 +4,7 @@ import ContactDetails from "./forms/ContactDetails";
 import EducationDetails from "./forms/EducationDetails";
 import ExperienceDetails from "./forms/ExperienceDetails";
 import PersonalDetails from "./forms/PersonalDetails";
+import AddSection from "./forms/AddSection";
 import { useSelector } from "react-redux";
 
 const formComponents = [
@@ -12,6 +13,7 @@ const formComponents = [
   ExperienceDetails,
   ContactDetails,
   CertificationDetails,
+  AddSection,
 ];
 
 export default function FormContainer() {

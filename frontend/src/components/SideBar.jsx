@@ -6,6 +6,7 @@ import Experience from "./assets/Experience.jsx";
 import PersonalInfo from "./assets/PersonalInfo.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { setGlobalIndex } from "../redux/slices/globalIndexSlice";
+import AddSection from "./assets/AddSection.jsx";
 
 export default function SideBar() {
   const { globalIndex } = useSelector((state) => state.globalIndex);
@@ -16,6 +17,7 @@ export default function SideBar() {
     { logo: Experience, text: "Experience" },
     { logo: Contact, text: "Contact Information" },
     { logo: Certification, text: "Award/Certification" },
+    { logo: AddSection ,text:"Add Section"},
   ];
 
   return (
